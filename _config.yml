@@ -13,7 +13,7 @@ apiurl: https://api.saldo.com.ar
 api_name: "Saldo"
 git_address: https://github.com/dev.saldo.com.ar
 git_edit_address: https://github.com/saldo/dev.saldo.com.ar/
-styleguide: false
+show_styleguide: false
 
 # images
 logo_url: "/img/logo.svg"

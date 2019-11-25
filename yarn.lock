@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@reyesoft/dev-docs-base@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@reyesoft/dev-docs-base/-/dev-docs-base-0.0.8.tgz#c04c02b0a43f93f2eab2f23f6123607877889f5b"
-  integrity sha512-+qA2TH2+GunrwPwXfDF30022kpbFRsFa3yLfGutYKsaBykk1wy302F1WSQfBpqWpZXpoVSg83nFLGDtMjzNodw==
+"@reyesoft/dev-docs-base@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@reyesoft/dev-docs-base/-/dev-docs-base-0.0.10.tgz#ec8cfe01429b1dd09f021a416490a4438fb4b848"
+  integrity sha512-OF+xuZzVeqNkfKZwPAzEsNk5E+8/VBYWcBs5c2XnmHEiR8cT7blfrA3nrU1SipNJ1S705T9KF/qpKmy3chJNQw==
