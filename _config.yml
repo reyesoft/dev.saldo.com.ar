@@ -1,0 +1,76 @@
+# Site settings
+title: Saldo Developers
+version: 0.0.23
+email: info@saldo.com.ar
+description: >
+  Documentación de la API de Saldo. Sistema online de gestión para pequeñas y
+  medianas empresas. Impresora fiscal, factura electrónica, stock,
+  cuentas corrientes, multiusuario, ¡y más!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://dev.saldo.com.ar # the base hostname & protocol for your site
+appurl: "https://saldo.com.ar"
+apiurl: https://api.saldo.com.ar
+api_name: "Saldo"
+git_address: https://github.com/dev.saldo.com.ar
+git_edit_address: https://github.com/saldo/dev.saldo.com.ar/
+styleguide: false
+
+# images
+logo_url: "/img/logo.svg"
+tip_image: "img/multinexo-tip.png"
+styleguide_img_url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - bitbucket-pipelines.yml
+  - README.md
+# timezone: america/argentina/mendoza
+
+defaults:
+# - scope:
+#    path: _posts
+#    type: posts
+#  values:
+#    layout: post
+#    sectionid: blog
+
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+    permalink: /:collection/:path/
+    sectionid: docs
+
+- scope:
+    path: _styleguide
+    type: styleguide
+  values:
+    layout: docs
+    sectionid: styleguide
+    seo:
+      type: "WebPage"
+
+collections:
+  docs:
+    # permalink: /:collection/:path/
+    output: true
+
+  styleguide:
+    permalink: /styleguide/:title/
+    output: true
+
+sass:
+  sass_dir: _sass
