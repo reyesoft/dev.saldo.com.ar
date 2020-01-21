@@ -28,7 +28,7 @@ jobs:
           command: git config --global user.name "BB pipeline" && git config --global user.email "pipeline@reyesoft.com"
       - run:
           name: Publish to Github Pages
-          command: bundle exec jgd -r v2.0
+          command: bundle exec jgd -r master
 workflows:
   version: 2
   build:
@@ -36,10 +36,10 @@ workflows:
       - build:
           filters:
             branches:
-              ignore: v2.0
+              ignore: master
   deploy:
     jobs:
       - deploy-to-ghpages:
           filters:
             branches:
-              only: v2.0
+              only: master
