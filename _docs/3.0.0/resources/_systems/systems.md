@@ -28,6 +28,12 @@ attributes:
     name: account_required_receive
     crud: 'create, read, update'
     sortable: 'true'
+  -
+    name: minimum_amount_send
+    crud: 'create, read, update'
+  -
+    name: minimum_amount_receive
+    crud: 'create, read, update'
 relationships:
   -
     resource: rates
