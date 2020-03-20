@@ -38,24 +38,6 @@
   
     
     {
-      "title": "Last Transactions",
-      "url": "/docs/3.0.0/resources/last_transactions/"
-    },
-  
-    
-    {
-      "title": "Transactions",
-      "url": "/docs/3.0.0/resources/transactions/"
-    },
-  
-    
-    {
-      "title": "Users",
-      "url": "/docs/3.0.0/resources/users/"
-    },
-  
-    
-    {
       "title": "Autentication",
       "url": "/docs/autentication/"
     },
