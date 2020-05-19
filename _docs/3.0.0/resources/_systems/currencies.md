@@ -8,6 +8,7 @@ attributes:
   -
     name: key
     crud: 'create, read, update'
+    sortable: 'true'
   -
     name: usd_price
     crud: 'create, read, update'
