@@ -12,6 +12,9 @@ attributes:
   -
     name: usd_price
     crud: 'create, read, update'
+  -
+    name: price
+    crud: 'create, read, update'
 relationships:
   -
     resource: best_rates
