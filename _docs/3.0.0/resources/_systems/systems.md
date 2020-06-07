@@ -6,6 +6,10 @@ singular: resource
 section: Systems
 attributes:
   -
+    name: name
+    crud: 'create, read, update'
+    sortable: 'true'
+  -
     name: amount
     crud: 'create, read, update'
   -
@@ -13,11 +17,22 @@ attributes:
     crud: 'create, read, update'
     sortable: 'true'
   -
+    name: decimal_places
+    crud: 'create, read, update'
+  -
     name: can_send
     crud: 'create, read, update'
     sortable: 'true'
   -
     name: can_receive
+    crud: 'create, read, update'
+    sortable: 'true'
+  -
+    name: fee_send
+    crud: 'create, read, update'
+    sortable: 'true'
+  -
+    name: fee_receive
     crud: 'create, read, update'
     sortable: 'true'
   -
@@ -36,6 +51,12 @@ attributes:
     crud: 'create, read, update'
   -
     name: minimum_amount_receive
+    crud: 'create, read, update'
+  -
+    name: maximum_amount_send
+    crud: 'create, read, update'
+  -
+    name: maximum_amount_receive
     crud: 'create, read, update'
 relationships:
   -

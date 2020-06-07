@@ -15,6 +15,9 @@ attributes:
     name: system2
     crud: 'create, read, update'
   -
+    name: currency1
+    crud: 'create, read, update'
+  -
     name: currency2
     crud: 'create, read, update'
 relationships: {  }
