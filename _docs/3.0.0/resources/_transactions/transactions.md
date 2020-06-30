@@ -21,11 +21,6 @@ attributes:
     sortable: 'true'
     required: true
   -
-    name: country_code
-    crud: create
-    sortable: 'true'
-    required: true
-  -
     name: user
     crud: 'create, read, update'
   -
