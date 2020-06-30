@@ -7,31 +7,34 @@ section: Transactions
 attributes:
   -
     name: name
-    crud: 'create, update'
+    crud: create
     sortable: 'true'
     required: true
   -
     name: email
-    crud: 'create, update'
+    crud: create
     sortable: 'true'
     required: true
   -
     name: phone_number
-    crud: 'create, update'
+    crud: create
     sortable: 'true'
     required: true
   -
     name: country_code
-    crud: 'create, update'
+    crud: create
     sortable: 'true'
     required: true
   -
     name: user
     crud: 'create, read, update'
   -
-    name: sistema1
-    crud: 'create, update'
+    name: referrer_id
+    crud: 'create, read, update'
     sortable: 'true'
+  -
+    name: sistema1
+    crud: 'create, read, update'
   -
     name: system1
     crud: 'create, read, update'
@@ -46,12 +49,10 @@ attributes:
     sortable: 'true'
   -
     name: cuenta1
-    crud: create
-    sortable: 'true'
+    crud: 'create, read, update'
   -
     name: sistema2
-    crud: 'create, update'
-    sortable: 'true'
+    crud: 'create, read, update'
   -
     name: system2
     crud: 'create, read, update'
@@ -66,8 +67,7 @@ attributes:
     sortable: 'true'
   -
     name: cuenta2
-    crud: create
-    sortable: 'true'
+    crud: 'create, read, update'
   -
     name: public_observation
     crud: 'create, read, update'
