@@ -58,6 +58,9 @@ attributes:
   -
     name: maximum_amount_receive
     crud: 'create, read, update'
+  -
+    name: account_type
+    crud: 'create, read, update'
 relationships:
   -
     resource: rates
