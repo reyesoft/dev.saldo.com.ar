@@ -61,6 +61,9 @@ attributes:
   -
     name: account_type
     crud: 'create, read, update'
+  -
+    name: market
+    crud: 'create, read, update'
 relationships:
   -
     resource: rates
