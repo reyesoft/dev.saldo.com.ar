@@ -15,6 +15,7 @@ attributes:
   -
     name: currency
     crud: 'create, read, update'
+    filter: EnumFilter
     sortable: 'true'
   -
     name: decimal_places
