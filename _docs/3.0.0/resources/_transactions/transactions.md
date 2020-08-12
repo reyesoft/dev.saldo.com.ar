@@ -67,6 +67,14 @@ attributes:
     name: public_observation
     crud: 'create, read, update'
     sortable: 'true'
-relationships: {  }
+relationships:
+  -
+    resource: system1
+    alias: system1
+    crud: 'create, read, update'
+  -
+    resource: system2
+    alias: system2
+    crud: 'create, read, update'
 
 ---
