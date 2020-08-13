@@ -1,11 +1,4 @@
 {% assign url = site.apiurl %}
-{% if page.partOf == 'company' %}
-  {% assign url = url | append: 'companies/{company_id}/' %}
-{% elsif page.partOf == 'user' %}
-  {% assign url = url | append: 'users/{user_id}/' %}
-{% elsif page.partOf %}
-  {% assign url = url %}
-{% endif %}
 
 {% if (page.entry_points.methods.get == null) or page.entry_points.methods.get %}
   <section>{% method_tag get %}{{ url }}{{ page.resource }}</section>
