@@ -70,5 +70,9 @@ relationships:
     resource: rates
     alias: rates
     crud: 'create, read, update'
+  -
+    resource: currency
+    alias: currency
+    crud: 'create, read, update'
 
 ---
