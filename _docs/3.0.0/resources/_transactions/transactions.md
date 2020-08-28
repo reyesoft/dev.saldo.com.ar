@@ -44,5 +44,9 @@ relationships:
     resource: system2
     alias: system2
     crud: 'create, read, update'
+  -
+    resource: invoice
+    alias: invoice
+    crud: 'create, read, update'
 
 ---
