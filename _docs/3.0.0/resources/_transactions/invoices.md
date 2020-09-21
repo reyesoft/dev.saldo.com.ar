@@ -4,7 +4,7 @@ permalink: /docs/3.0.0/resources/invoices/
 version: 3.0.0
 singular: resource
 section: Transactions
-partOf: u
+partOf: t
 attributes:
   -
     name: amount

@@ -4,7 +4,7 @@ permalink: /docs/3.0.0/resources/user_fiscal_data/
 version: 3.0.0
 singular: resource
 section: Users
-partOf: u
+partOf: t
 attributes:
   -
     name: cuit
