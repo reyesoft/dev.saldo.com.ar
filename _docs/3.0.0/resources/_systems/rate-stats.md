@@ -12,6 +12,7 @@ attributes:
   -
     name: systems
     crud: 'create, read, update'
+    filter: StringFilter
     sortable: 'true'
   -
     name: price
