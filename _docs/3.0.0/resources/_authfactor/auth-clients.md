@@ -1,25 +1,26 @@
 ---
-resource: users
-permalink: /docs/3.0.0/resources/users/
+resource: auth_clients
+permalink: /docs/3.0.0/resources/auth_clients/
 version: 3.0.0
 singular: resource
-section: Users
+section: AuthFactor
 attributes:
-  -
-    name: alias
-    crud: 'create, read, update'
-  -
-    name: email
-    crud: 'create, read, update'
-    sortable: 'true'
   -
     name: name
     crud: 'create, read, update'
+    filter: StringFilter
+    sortable: 'true'
+  -
+    name: redirect
+    crud: 'create, read, update'
+  -
+    name: revoked
+    crud: read
     sortable: 'true'
 relationships:
   -
-    resource: transactions
-    alias: transactions
+    resource: user
+    alias: user
     crud: 'create, read, update'
 
 ---
