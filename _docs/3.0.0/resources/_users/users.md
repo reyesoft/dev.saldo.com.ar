@@ -16,10 +16,6 @@ attributes:
     name: name
     crud: 'create, read, update'
     sortable: 'true'
-  -
-    name: pass
-    crud: 'create, update'
-    sortable: 'true'
 relationships:
   -
     resource: transactions
