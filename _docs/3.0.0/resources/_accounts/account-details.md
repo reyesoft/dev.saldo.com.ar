@@ -13,10 +13,6 @@ attributes:
     name: holder
     crud: 'create, read, update'
     sortable: 'true'
-  -
-    name: number
-    crud: 'create, read, update'
-    sortable: 'true'
 relationships:
   -
     resource: account
