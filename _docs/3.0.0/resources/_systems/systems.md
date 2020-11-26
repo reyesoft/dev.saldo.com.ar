@@ -63,6 +63,11 @@ attributes:
     name: account_type
     crud: 'create, read, update'
   -
+    name: group_id
+    crud: 'create, read, update'
+    filter: StringFilter
+    sortable: 'true'
+  -
     name: market
     crud: 'create, read, update'
 relationships:
