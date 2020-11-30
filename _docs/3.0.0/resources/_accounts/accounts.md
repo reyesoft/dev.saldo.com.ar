@@ -7,7 +7,7 @@ section: Accounts
 partOf: u
 attributes:
   -
-    name: email
+    name: address
     crud: 'create, read, update'
     sortable: 'true'
 relationships:
@@ -16,8 +16,8 @@ relationships:
     alias: system
     crud: 'create, read, update'
   -
-    resource: account_details
-    alias: account_details
+    resource: account_detail
+    alias: account_detail
     crud: 'create, read, update'
 
 ---

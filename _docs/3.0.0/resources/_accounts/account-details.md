@@ -7,8 +7,9 @@ section: Accounts
 partOf: u
 attributes:
   -
-    name: cuit
+    name: identification_number
     crud: 'create, read, update'
+    sortable: 'true'
   -
     name: holder
     crud: 'create, read, update'
