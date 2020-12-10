@@ -16,6 +16,10 @@ attributes:
     name: name
     crud: 'create, read, update'
     sortable: 'true'
+  -
+    name: level
+    crud: read
+    sortable: 'true'
 relationships:
   -
     resource: transactions
