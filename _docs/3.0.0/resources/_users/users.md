@@ -7,14 +7,15 @@ section: Users
 attributes:
   -
     name: alias
-    crud: 'create, read, update'
+    crud: read
+    sortable: 'true'
   -
     name: email
-    crud: 'create, read, update'
+    crud: 'create, read'
     sortable: 'true'
   -
     name: name
-    crud: 'create, read, update'
+    crud: 'create, read'
     sortable: 'true'
   -
     name: level
