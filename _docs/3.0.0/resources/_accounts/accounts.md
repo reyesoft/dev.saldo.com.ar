@@ -10,6 +10,11 @@ attributes:
     name: address
     crud: 'create, read, update'
     sortable: 'true'
+  -
+    name: deleted_at
+    crud: 'create, read, update'
+    filter: DeletedFilter
+    sortable: 'true'
 relationships:
   -
     resource: system
@@ -18,6 +23,14 @@ relationships:
   -
     resource: account_detail
     alias: account_detail
+    crud: 'create, read, update'
+  -
+    resource: send_transactions
+    alias: send_transactions
+    crud: 'create, read, update'
+  -
+    resource: receive_transactions
+    alias: receive_transactions
     crud: 'create, read, update'
 
 ---
