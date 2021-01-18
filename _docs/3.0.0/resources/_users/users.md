@@ -21,6 +21,10 @@ attributes:
     name: level
     crud: read
     sortable: 'true'
+  -
+    name: referrer_balance
+    crud: read
+    sortable: 'true'
 relationships:
   -
     resource: transactions
