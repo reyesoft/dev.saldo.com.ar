@@ -22,7 +22,7 @@ attributes:
     crud: read
     sortable: 'true'
   -
-    name: referrer_balance
+    name: referral_balance
     crud: read
     sortable: 'true'
 relationships:
