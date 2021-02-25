@@ -10,6 +10,10 @@ attributes:
     name: user
     crud: 'create, read, update'
   -
+    name: state
+    crud: read
+    sortable: 'true'
+  -
     name: amount1
     crud: 'create, read, update'
     sortable: 'true'
