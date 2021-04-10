@@ -45,9 +45,6 @@ attributes:
     crud: 'create, read, update'
     sortable: 'true'
   -
-    name: id_agreement
-    crud: 'create, read, update'
-  -
     name: minimum_amount_send
     crud: 'create, read, update'
   -
