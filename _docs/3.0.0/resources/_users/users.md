@@ -18,6 +18,10 @@ attributes:
     crud: 'create, read'
     sortable: 'true'
   -
+    name: phone_number
+    crud: 'read, update'
+    sortable: 'true'
+  -
     name: level
     crud: read
     sortable: 'true'
