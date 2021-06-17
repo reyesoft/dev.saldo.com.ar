@@ -14,6 +14,10 @@ attributes:
     name: holder
     crud: 'create, read, update'
     sortable: 'true'
+  -
+    name: type
+    crud: 'create, read, update'
+    sortable: 'true'
 relationships:
   -
     resource: account
