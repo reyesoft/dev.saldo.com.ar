@@ -18,6 +18,9 @@ attributes:
     name: type
     crud: 'create, read, update'
     sortable: 'true'
+  -
+    name: bank_name
+    crud: 'create, read, update'
 relationships:
   -
     resource: account
