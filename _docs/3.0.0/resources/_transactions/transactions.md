@@ -9,6 +9,7 @@ attributes:
   -
     name: user
     crud: 'create, read, update'
+    sortable: 'true'
   -
     name: state
     crud: read
@@ -20,10 +21,10 @@ attributes:
   -
     name: account_address1
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: cuenta1
     crud: 'create, read, update'
+    sortable: 'true'
   -
     name: amount2
     crud: 'create, read, update'
@@ -31,10 +32,10 @@ attributes:
   -
     name: account_address2
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: cuenta2
     crud: 'create, read, update'
+    sortable: 'true'
   -
     name: public_observation
     crud: 'create, read, update'

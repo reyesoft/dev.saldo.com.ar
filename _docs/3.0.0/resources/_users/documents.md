@@ -16,7 +16,6 @@ attributes:
   -
     name: user_id
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: transaction_id
     crud: 'create, read, update'
