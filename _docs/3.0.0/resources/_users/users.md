@@ -18,6 +18,14 @@ attributes:
     crud: 'create, read'
     sortable: 'true'
   -
+    name: pass
+    crud: create
+    sortable: 'true'
+  -
+    name: password
+    crud: create
+    sortable: 'true'
+  -
     name: phone_number
     crud: 'read, update'
     sortable: 'true'

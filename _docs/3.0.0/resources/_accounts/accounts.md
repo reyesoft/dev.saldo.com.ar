@@ -9,7 +9,6 @@ attributes:
   -
     name: address
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: deleted_at
     crud: 'create, read, update'

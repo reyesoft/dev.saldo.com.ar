@@ -8,7 +8,6 @@ attributes:
   -
     name: name
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: amount
     crud: 'create, read, update'
