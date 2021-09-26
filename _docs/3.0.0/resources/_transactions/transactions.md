@@ -12,12 +12,10 @@ attributes:
     sortable: 'true'
   -
     name: state
-    crud: read
-    sortable: 'true'
+    crud: 'create, read, update'
   -
     name: amount1
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: account_address1
     crud: 'create, read, update'
@@ -28,7 +26,6 @@ attributes:
   -
     name: amount2
     crud: 'create, read, update'
-    sortable: 'true'
   -
     name: account_address2
     crud: 'create, read, update'

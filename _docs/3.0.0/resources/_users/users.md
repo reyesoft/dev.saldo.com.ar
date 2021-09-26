@@ -41,6 +41,6 @@ relationships:
   -
     resource: transactions
     alias: transactions
-    crud: 'create, read, update'
+    crud: read
 
 ---
