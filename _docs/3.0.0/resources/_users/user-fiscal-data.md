@@ -28,6 +28,6 @@ relationships:
   -
     resource: user
     alias: user
-    crud: 'create, read, update'
+    crud: read
 
 ---
