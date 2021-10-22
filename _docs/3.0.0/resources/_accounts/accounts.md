@@ -8,7 +8,13 @@ partOf: u
 attributes:
   -
     name: address
-    crud: 'create, read, update'
+    crud: 'create, read'
+    sortable: 'true'
+  -
+    name: status
+    crud: 'read, update'
+    filter: EnumFilter
+    sortable: 'true'
   -
     name: deleted_at
     crud: 'create, read, update'
