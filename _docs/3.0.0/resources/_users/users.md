@@ -39,6 +39,10 @@ attributes:
     sortable: 'true'
 relationships:
   -
+    resource: notifications
+    alias: notifications
+    crud: 'create, read, update'
+  -
     resource: transactions
     alias: transactions
     crud: read
