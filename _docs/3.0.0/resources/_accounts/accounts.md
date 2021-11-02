@@ -9,6 +9,7 @@ attributes:
   -
     name: address
     crud: 'create, read'
+    filter: StringFilter
     sortable: 'true'
   -
     name: status
