@@ -14,6 +14,30 @@ attributes:
     crud: read
     sortable: 'true'
   -
+    name: amount1
+    crud: read
+    sortable: 'true'
+  -
+    name: amount2
+    crud: read
+    sortable: 'true'
+  -
+    name: currency1
+    crud: read
+    sortable: 'true'
+  -
+    name: currency2
+    crud: read
+    sortable: 'true'
+  -
+    name: system1
+    crud: read
+    sortable: 'true'
+  -
+    name: system2
+    crud: read
+    sortable: 'true'
+  -
     name: token
     crud: read
     sortable: 'true'

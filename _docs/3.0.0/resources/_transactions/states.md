@@ -10,7 +10,7 @@ attributes:
     crud: read
     sortable: 'true'
   -
-    name: update_at
+    name: updated_at
     crud: read
     sortable: 'true'
 relationships: {  }
