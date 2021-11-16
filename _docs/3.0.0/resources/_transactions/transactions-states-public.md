@@ -22,22 +22,6 @@ attributes:
     crud: read
     sortable: 'true'
   -
-    name: currency1
-    crud: read
-    sortable: 'true'
-  -
-    name: currency2
-    crud: read
-    sortable: 'true'
-  -
-    name: system1
-    crud: read
-    sortable: 'true'
-  -
-    name: system2
-    crud: read
-    sortable: 'true'
-  -
     name: token
     crud: read
     sortable: 'true'
@@ -45,6 +29,14 @@ relationships:
   -
     resource: states
     alias: states
+    crud: 'create, read, update'
+  -
+    resource: system1
+    alias: system1
+    crud: 'create, read, update'
+  -
+    resource: system2
+    alias: system2
     crud: 'create, read, update'
 
 ---
