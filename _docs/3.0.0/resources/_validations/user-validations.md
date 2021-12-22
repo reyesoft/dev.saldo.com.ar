@@ -3,7 +3,7 @@ resource: user_validations
 permalink: /docs/3.0.0/resources/user_validations/
 version: 3.0.0
 singular: resource
-section: Users
+section: Validations
 partOf: u
 attributes:
   -
@@ -13,7 +13,7 @@ attributes:
     name: observations
     crud: 'create, read, update'
   -
-    name: validation_id
+    name: validation_type_id
     crud: 'create, read, update'
     filter: StringFilter
     sortable: 'true'
@@ -29,6 +29,10 @@ relationships:
   -
     resource: validation
     alias: validation
+    crud: 'create, read, update'
+  -
+    resource: validation_type
+    alias: validation_type
     crud: 'create, read, update'
 
 ---
