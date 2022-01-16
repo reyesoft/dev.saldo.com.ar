@@ -1,6 +1,6 @@
 ---
-resource: user_validations
-permalink: /docs/3.0.0/resources/user_validations/
+resource: validations
+permalink: /docs/3.0.0/resources/validations/
 version: 3.0.0
 singular: resource
 section: Validations
@@ -25,10 +25,6 @@ relationships:
   -
     resource: user
     alias: user
-    crud: 'create, read, update'
-  -
-    resource: validation
-    alias: validation
     crud: 'create, read, update'
   -
     resource: validation_type
