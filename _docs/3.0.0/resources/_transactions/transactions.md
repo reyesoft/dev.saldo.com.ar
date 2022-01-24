@@ -8,47 +8,68 @@ partOf: t
 attributes:
   -
     name: user
-    crud: 'create, read, update'
+    crud: read
     sortable: 'true'
   -
     name: state
-    crud: 'create, read, update'
+    crud: read
+    sortable: 'true'
+  -
+    name: mid
+    crud: read
+    sortable: 'true'
   -
     name: amount1
-    crud: 'create, read, update'
+    crud: read
+    sortable: 'true'
   -
     name: account_address1
-    crud: 'create, read, update'
+    crud: read
+    sortable: 'true'
+  -
+    name: instructions_url
+    crud: read
+    sortable: 'true'
   -
     name: cuenta1
-    crud: 'create, read, update'
+    crud: read
     sortable: 'true'
   -
     name: amount2
-    crud: 'create, read, update'
+    crud: read
+    sortable: 'true'
   -
     name: account_address2
-    crud: 'create, read, update'
+    crud: read
+    sortable: 'true'
   -
     name: cuenta2
-    crud: 'create, read, update'
+    crud: read
     sortable: 'true'
   -
     name: public_observation
-    crud: 'create, read, update'
+    crud: read
     sortable: 'true'
 relationships:
   -
     resource: system1
     alias: system1
-    crud: 'create, read, update'
+    crud: read
   -
     resource: system2
     alias: system2
-    crud: 'create, read, update'
+    crud: read
   -
     resource: invoice
     alias: invoice
-    crud: 'create, read, update'
+    crud: read
+  -
+    resource: states
+    alias: states
+    crud: read
+  -
+    resource: files
+    alias: files
+    crud: 'read, update'
 
 ---
