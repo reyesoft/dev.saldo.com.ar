@@ -23,10 +23,6 @@ attributes:
     sortable: 'true'
 relationships:
   -
-    resource: user
-    alias: user
-    crud: 'create, read, update'
-  -
     resource: validation_type
     alias: validation_type
     crud: 'create, read, update'
