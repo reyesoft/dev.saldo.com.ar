@@ -17,7 +17,6 @@ attributes:
   -
     name: price
     crud: 'create, read, update'
-    sortable: 'true'
 relationships: {  }
 
 ---
