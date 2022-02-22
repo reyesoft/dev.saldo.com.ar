@@ -30,13 +30,5 @@ relationships:
     resource: account_detail
     alias: account_detail
     crud: 'create, read, update'
-  -
-    resource: send_transactions
-    alias: send_transactions
-    crud: 'create, read, update'
-  -
-    resource: receive_transactions
-    alias: receive_transactions
-    crud: 'create, read, update'
 
 ---

@@ -11,6 +11,9 @@ attributes:
     filter: StringFilter
     sortable: 'true'
   -
+    name: replacement_system_id
+    crud: 'create, read, update'
+  -
     name: amount
     crud: 'create, read, update'
   -
