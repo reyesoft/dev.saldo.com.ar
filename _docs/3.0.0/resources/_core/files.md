@@ -4,11 +4,11 @@ permalink: /docs/3.0.0/resources/files/
 version: 3.0.0
 singular: resource
 section: Core
-partOf: t
+partOf: u
 attributes:
   -
     name: file_url
-    crud: 'create, read, update'
+    crud: read
     sortable: 'true'
 relationships: {  }
 

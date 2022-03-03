@@ -66,10 +66,6 @@ relationships:
   -
     resource: states
     alias: states
-    crud: read
-  -
-    resource: files
-    alias: files
-    crud: 'read, update'
+    crud: 'create, read, update'
 
 ---
