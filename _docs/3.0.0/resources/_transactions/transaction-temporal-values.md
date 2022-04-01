@@ -10,7 +10,7 @@ attributes:
     crud: read
     sortable: 'true'
   -
-    name: url
+    name: instructions_url
     crud: read
     sortable: 'true'
 relationships:
