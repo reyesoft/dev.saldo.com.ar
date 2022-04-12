@@ -14,6 +14,10 @@ attributes:
     name: updated_at
     crud: read
     sortable: 'true'
+  -
+    name: public_text
+    crud: read
+    sortable: 'true'
 relationships: {  }
 
 ---
