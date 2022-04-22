@@ -7,8 +7,16 @@ section: Transactions
 partOf: t
 attributes:
   -
+    name: transaction_id
+    crud: 'create, read'
+    sortable: 'true'
+  -
     name: state
     crud: read
+    sortable: 'true'
+  -
+    name: author_id
+    crud: 'create, read'
     sortable: 'true'
   -
     name: updated_at
@@ -16,7 +24,7 @@ attributes:
     sortable: 'true'
   -
     name: public_text
-    crud: read
+    crud: 'create, read'
     sortable: 'true'
 relationships: {  }
 
