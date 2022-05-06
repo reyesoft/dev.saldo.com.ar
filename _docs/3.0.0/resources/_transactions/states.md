@@ -19,6 +19,10 @@ attributes:
     crud: 'create, read'
     sortable: 'true'
   -
+    name: author_name
+    crud: read
+    sortable: 'true'
+  -
     name: updated_at
     crud: read
     sortable: 'true'
