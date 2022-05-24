@@ -15,6 +15,10 @@ attributes:
     crud: read
     sortable: 'true'
   -
+    name: marked_as_sent
+    crud: read
+    sortable: 'true'
+  -
     name: mid
     crud: read
     sortable: 'true'
