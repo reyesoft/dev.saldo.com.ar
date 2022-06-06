@@ -25,7 +25,7 @@ relationships:
   -
     resource: system
     alias: system
-    crud: 'create, read, update'
+    crud: 'create, read'
   -
     resource: account_detail
     alias: account_detail
