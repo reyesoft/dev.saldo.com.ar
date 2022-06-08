@@ -16,7 +16,7 @@ attributes:
     sortable: 'true'
   -
     name: marked_as_sent
-    crud: read
+    crud: 'read, update'
     sortable: 'true'
   -
     name: mid
