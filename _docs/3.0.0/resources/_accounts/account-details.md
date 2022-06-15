@@ -12,15 +12,16 @@ attributes:
     sortable: 'true'
   -
     name: holder
-    crud: 'create, read, update'
+    crud: 'create, read'
     sortable: 'true'
   -
     name: type
-    crud: 'create, read, update'
+    crud: 'create, read'
     sortable: 'true'
   -
     name: bank_name
-    crud: 'create, read, update'
+    crud: 'create, read'
+    sortable: 'true'
 relationships:
   -
     resource: account
