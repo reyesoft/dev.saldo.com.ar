@@ -71,5 +71,13 @@ relationships:
     resource: states
     alias: states
     crud: 'create, read, update'
+  -
+    resource: direct_transfers1
+    alias: direct_transfers1
+    crud: 'create, read, update'
+  -
+    resource: direct_transfers2
+    alias: direct_transfers2
+    crud: 'create, read, update'
 
 ---
