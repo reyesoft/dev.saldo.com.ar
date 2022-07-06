@@ -30,6 +30,14 @@ attributes:
     name: public_text
     crud: 'create, read'
     sortable: 'true'
-relationships: {  }
+  -
+    name: state_action_id
+    crud: read
+    sortable: 'true'
+relationships:
+  -
+    resource: state_actions
+    alias: state_actions
+    crud: 'create, read, update'
 
 ---
