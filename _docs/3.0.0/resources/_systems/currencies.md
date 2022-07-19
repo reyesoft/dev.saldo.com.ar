@@ -18,6 +18,9 @@ attributes:
   -
     name: default_minimum
     crud: 'create, read, update'
+  -
+    name: rank
+    crud: 'create, read, update'
 relationships:
   -
     resource: best_rates

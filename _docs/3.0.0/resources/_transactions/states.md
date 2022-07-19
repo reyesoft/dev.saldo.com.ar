@@ -31,6 +31,10 @@ attributes:
     crud: 'create, read'
     sortable: 'true'
   -
+    name: is_public
+    crud: read
+    sortable: 'true'
+  -
     name: state_action_id
     crud: read
     sortable: 'true'

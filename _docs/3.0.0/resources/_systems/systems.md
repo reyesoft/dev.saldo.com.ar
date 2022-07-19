@@ -71,6 +71,9 @@ attributes:
   -
     name: market
     crud: 'create, read, update'
+  -
+    name: trend
+    crud: 'create, read, update'
 relationships:
   -
     resource: rates
