@@ -19,5 +19,9 @@ relationships:
     resource: account
     alias: account
     crud: read
+  -
+    resource: direct_transfer_actions
+    alias: direct_transfer_actions
+    crud: read
 
 ---

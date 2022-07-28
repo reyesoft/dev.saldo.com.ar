@@ -54,6 +54,10 @@ attributes:
     name: public_observation
     crud: read
     sortable: 'true'
+  -
+    name: canceled_at
+    crud: read
+    sortable: 'true'
 relationships:
   -
     resource: system1
