@@ -83,5 +83,9 @@ relationships:
     resource: direct_transfers2
     alias: direct_transfers2
     crud: 'create, read, update'
+  -
+    resource: future_invoices
+    alias: future_invoices
+    crud: 'create, read, update'
 
 ---
