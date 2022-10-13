@@ -6,11 +6,6 @@ singular: resource
 section: Systems
 attributes:
   -
-    name: id
-    crud: read
-    filter: NumberFilter
-    sortable: 'true'
-  -
     name: date
     crud: read
     filter: DateFilter
@@ -18,6 +13,7 @@ attributes:
   -
     name: pair
     crud: read
+    filter: StringFilter
     sortable: 'true'
   -
     name: ask_price
