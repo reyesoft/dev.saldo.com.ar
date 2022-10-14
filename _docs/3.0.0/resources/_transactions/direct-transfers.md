@@ -14,6 +14,10 @@ attributes:
     name: amount
     crud: read
     sortable: 'true'
+  -
+    name: payment_identification
+    crud: read
+    sortable: 'true'
 relationships:
   -
     resource: account
