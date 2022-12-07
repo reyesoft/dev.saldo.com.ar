@@ -6,13 +6,7 @@ singular: resource
 section: Systems
 attributes:
   -
-    name: sent_at
-    crud: 'create, read, update'
-  -
-    name: filling
-    crud: 'create, read, update'
-  -
-    name: filled
+    name: ready_to_pay_at
     crud: 'create, read, update'
 relationships: {  }
 
