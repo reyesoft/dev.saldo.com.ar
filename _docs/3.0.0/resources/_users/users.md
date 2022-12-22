@@ -34,6 +34,10 @@ attributes:
     crud: read
     sortable: 'true'
   -
+    name: level_power
+    crud: read
+    sortable: 'true'
+  -
     name: referral_balance
     crud: read
     sortable: 'true'
