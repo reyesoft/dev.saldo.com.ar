@@ -12,6 +12,11 @@ attributes:
     filter: StringFilter
     sortable: 'true'
   -
+    name: alias
+    crud: 'create, read, update'
+    filter: StringFilter
+    sortable: 'true'
+  -
     name: status
     crud: 'read, update'
     filter: EnumFilter

@@ -12,7 +12,7 @@ attributes:
     sortable: 'true'
   -
     name: state
-    crud: read
+    crud: 'read, update'
     sortable: 'true'
   -
     name: marked_as_sent
@@ -58,6 +58,18 @@ attributes:
     name: canceled_at
     crud: read
     sortable: 'true'
+  -
+    name: agreement1_id
+    crud: read
+    sortable: 'true'
+  -
+    name: total_agreed_rest
+    crud: read
+    sortable: 'true'
+  -
+    name: whatsapp
+    crud: read
+    sortable: 'true'
 relationships:
   -
     resource: system1
@@ -86,6 +98,10 @@ relationships:
   -
     resource: future_invoices
     alias: future_invoices
+    crud: 'create, read, update'
+  -
+    resource: extra_transaction_info
+    alias: extra_transaction_info
     crud: 'create, read, update'
 
 ---

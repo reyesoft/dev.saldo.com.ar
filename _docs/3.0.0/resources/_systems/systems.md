@@ -14,6 +14,9 @@ attributes:
     name: replacement_system_id
     crud: 'create, read, update'
   -
+    name: alternative_name
+    crud: 'create, read, update'
+  -
     name: amount
     crud: 'create, read, update'
   -
